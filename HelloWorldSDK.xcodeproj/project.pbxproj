@@ -11,7 +11,7 @@
 		D02DC030247E8BAA006EE479 /* HelloWorldSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DC02F247E8BAA006EE479 /* HelloWorldSDKTests.swift */; };
 		D02DC032247E8BAA006EE479 /* HelloWorldSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D02DC024247E8BAA006EE479 /* HelloWorldSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D02DC03C247E8BED006EE479 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DC03B247E8BED006EE479 /* HelloWorld.swift */; };
-		D02DC03E247E8E77006EE479 /* HelloWorldSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D02DC03D247E8E77006EE479 /* HelloWorldSDK.podspec */; };
+		D0CA1BB224860ED300E9C1C9 /* PBHelloWorldSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D0CA1BB124860ED200E9C1C9 /* PBHelloWorldSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		D02DC02F247E8BAA006EE479 /* HelloWorldSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldSDKTests.swift; sourceTree = "<group>"; };
 		D02DC031247E8BAA006EE479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02DC03B247E8BED006EE479 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
-		D02DC03D247E8E77006EE479 /* HelloWorldSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HelloWorldSDK.podspec; sourceTree = "<group>"; };
+		D0CA1BB124860ED200E9C1C9 /* PBHelloWorldSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PBHelloWorldSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		D02DC017247E8BAA006EE479 = {
 			isa = PBXGroup;
 			children = (
-				D02DC03D247E8E77006EE479 /* HelloWorldSDK.podspec */,
+				D0CA1BB124860ED200E9C1C9 /* PBHelloWorldSDK.podspec */,
 				D02DC023247E8BAA006EE479 /* HelloWorldSDK */,
 				D02DC02E247E8BAA006EE479 /* HelloWorldSDKTests */,
 				D02DC022247E8BAA006EE479 /* Products */,
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02DC03E247E8E77006EE479 /* HelloWorldSDK.podspec in Resources */,
+				D0CA1BB224860ED300E9C1C9 /* PBHelloWorldSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
