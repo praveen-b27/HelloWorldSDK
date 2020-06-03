@@ -10,7 +10,7 @@ import Foundation
 
 
 public class HelloWorld {
-    let greet = "Hello"
+    let greet = "Hello s"
 
     public init() {}
     
